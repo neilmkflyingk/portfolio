@@ -1,0 +1,220 @@
+:root {
+    
+
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    
+}
+h2 {
+    font-size: 200%;
+}
+
+/*header styling*/
+
+.header {
+    flex-flow: row wrap;
+    flex: 2 1 auto;
+    height: 275px;
+    display: flex;
+    max-width: 100%;
+    background-color: #169377;
+    border: solid black 5px;
+  
+
+}
+
+.header h1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 250%;
+    max-width: 50%;
+    max-height: 200px;
+}
+
+.header img {
+    justify-content: left;
+    margin: 10px;
+    border: solid #C86E1A 10px;
+    max-width: 17%;
+    max-height: 250px;
+}
+
+.header nav {
+    display: flex;
+    flex: 2 1 auto;
+    flex-flow: column wrap;
+    max-width: 100%;
+    align-items: end;
+    justify-content: end;
+    
+}
+
+.header nav ul {
+    margin: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    color: black;
+    margin: 5px;
+    font-size: 18px;
+
+}
+
+/*About Me styling*/
+.about {
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    border: solid blue 5px;
+    justify-content: space-around;
+    
+}
+
+.about img {
+    border: solid black 5px;
+    margin: 10px;
+    max-width: 40%;
+}
+
+.about div {
+    border: solid green 5px;
+    margin: 10px;
+    max-width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
+}
+
+.about div h2 {
+    display:flexbox;
+    max-height: 50px;
+    text-align: center;
+    border: solid black 5px;
+    margin: 10px;
+}
+
+.about div p {
+    display: flex;
+    border: solid black 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+/*Work styling*/
+.work {
+    border: solid blue 5px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.work #text {
+    border: solid green 5px;
+    margin: 10px;
+    width: auto;
+    display: flexbox;
+}
+.work h2 {
+    border: solid black 5px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.work div ul {
+    border: solid black 5px;
+    margin: 10px;
+    text-align: center;
+    align-content: space-between;
+    
+}
+
+.work div ul li {
+    display: inline-block;
+    border: solid red;
+    margin: 0 10px
+}
+.work #examples {
+    display: flex;
+    border: solid green 5px;
+    margin: 10px;
+    width: auto;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.work #e1 {
+    width: 100%;
+    border: solid black 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.work #e1 img {
+    
+}
+.work #e2 {
+    width: 45%;
+    border: solid black 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.work #e3 {
+    width: 45%;
+    border: solid black 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.work #e4 {
+    width: 45%;
+    border: solid black 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.work #e5 {
+    width: 45%;
+    border: solid black 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Contact Me styling*/
+.contact {
+    border: solid blue 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact h2 {
+    border: solid black 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact ul {
+    border: solid black 5px;
+    margin: auto;
+    
+}
+
+.contact li {
+    border: solid red 2px;
+    margin: 20px;
+    display: inline;
+}
