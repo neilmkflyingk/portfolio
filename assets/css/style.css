@@ -1,0 +1,83 @@
+:root {
+
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+/*header styling*/
+.header {
+    flex-flow: row wrap;
+    flex: 2 1 auto;
+    height: 275px;
+    display: flex;
+    max-width: 100%;
+    background-color: #169377;
+  
+
+}
+
+.header h1 {
+    color: ;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 250%;
+    max-width: 50%;
+    max-height: 200px;
+}
+
+.header img {
+    justify-content: left;
+    margin: 10px;
+    border: solid #C86E1A 10px;
+    max-width: 17%;
+    max-height: 250px;
+}
+
+.header nav {
+    display: flex;
+    flex: 2 1 auto;
+    flex-flow: column wrap;
+    max-width: 100%;
+    align-items: end;
+    justify-content: end;
+    
+}
+
+.header nav ul {
+    margin: 20px;
+}
+
+.header nav ul li {
+    display: inline-block;
+    color: black;
+    margin: 5px;
+    font-size: 18px;
+
+}
+
+/*About Me styling*/
+.about {
+    margin: 20px;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.about h2 {
+    display:flexbox;
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.about p {
+    text
+}
+
+h2 {
+    font-size: 200%;
+}
