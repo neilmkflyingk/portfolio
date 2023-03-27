@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     max-width: 100%;
-    
+    background-color: #3BF2DC;
 }
 h2 {
     font-size: 200%;
@@ -20,7 +20,7 @@ h2 {
     height: 275px;
     display: flex;
     max-width: 100%;
-    background-color: #169377;
+    background-color: #4CBFCF;
     border: solid black 5px;
   
 
@@ -74,6 +74,7 @@ h2 {
     flex-flow: row wrap;
     border: solid blue 5px;
     justify-content: space-around;
+    background-color: #33d6ff;
     
 }
 
@@ -104,6 +105,7 @@ h2 {
 .about div p {
     display: flex;
     border: solid black 5px;
+    padding: 20px;
     margin: 10px;
     text-align: center;
 }
@@ -116,6 +118,7 @@ h2 {
     margin: 10px;
     display: flex;
     flex-flow: column wrap;
+    
 }
 
 .work #text {
@@ -123,6 +126,7 @@ h2 {
     margin: 10px;
     width: auto;
     display: flexbox;
+    background-color: #33d6ff;
 }
 .work h2 {
     border: solid black 5px;
@@ -151,19 +155,52 @@ h2 {
     width: auto;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    background-color: #33d6ff;
 }
 
-.work #e1 {
+.work #prework-study-guide {
     width: 100%;
+    height: auto;
     border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
 }
 
-.work #e1 img {
+.work #prework-study-guide img {
+    width: 100%;
+    height: auto;
+    border: solid #3BF2DC 5px;
+    display: block;
     
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 12%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
 .work #e2 {
     width: 45%;
     border: solid black 5px;
@@ -202,6 +239,7 @@ h2 {
     margin: 10px;
     display: flex;
     justify-content: center;
+    background-color: #33d6ff;
 }
 
 .contact h2 {
