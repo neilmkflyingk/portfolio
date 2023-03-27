@@ -9,21 +9,22 @@
 </head>
 
 <body>
+    <!--header-->
     <header class="header">
         <img src="./assets/images/neil.jpeg" alt="headshot">
         <h1>Neil Kirkpatrick</h1>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Contact</li>
-                <li>Resume</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://docs.google.com/document/d/1dNGXSJZ6Rf6VlCDaVxbirDh28CXRIFX42f2nVRNEXh8/edit">Resume</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <!--about me-->
-        <section class="about">
+        <section class="about" id="about">
             <img src="./assets/images/placeholder-image.png" alt="placeholder-image">
             <div>
                 <h2>About Me</h2>
@@ -32,7 +33,7 @@
         </section>
         
         <!--work-->
-        <section class="work">
+        <section class="work" id="work">
             <div id="text">
                 <h2>Work</h2>
                 <ul>
@@ -40,9 +41,13 @@
                     <li>Hover over image for more information</li>
                 </ul>
             </div>
+            <!--applications-->
             <div id="examples">
-                <div id="e1">
-                    <img src="./assets/images/placeholder-image.png" alt="placeholder-image">
+                <div id="prework-study-guide">
+                    <div class="container">
+                        <a href="https://neilmkflyingk.github.io/prework-study-guide/"><img src="./assets/images/pwsg-scrnsht.png" alt="prework-study-guide"></a>
+                        <div class="overlay">First application. Using HTML, CSS, and JavaScript to create a study guide.</div>
+                    </div>
                 </div>
                 <div id="e2">
                     <img src="./assets/images/placeholder-image.png" alt="placeholder-image">
@@ -59,7 +64,8 @@
             </div>
         </section>
 
-        <footer class="contact">
+        <!--contact me-->
+        <footer class="contact" id="contact">
             <nav>
                 <h2>Contact Me</h2>
                 <ul>

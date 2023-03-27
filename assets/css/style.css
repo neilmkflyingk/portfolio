@@ -64,6 +64,9 @@ h2 {
 
 }
 
+.header nav ul li a:hover {
+    color: white;
+}
 /*About Me styling*/
 .about {
     margin: 10px;
@@ -155,17 +158,49 @@ h2 {
     background-color: #33d6ff;
 }
 
-.work #e1 {
+.work #prework-study-guide {
     width: 100%;
+    height: auto;
     border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
 }
 
-.work #e1 img {
+.work #prework-study-guide img {
+    width: 100%;
+    height: auto;
+    border: solid #3BF2DC 5px;
+    display: block;
     
 }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 12%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
 .work #e2 {
     width: 45%;
     border: solid black 5px;
