@@ -1,17 +1,19 @@
-:root {
-    
-
-}
 body {
     display: flex;
     flex-flow: row wrap;
-    max-width: 100%;
+    width: 100%;
     background-color: #3BF2DC;
+    flex: 4 1 auto;
 }
+
 h2 {
     font-size: 200%;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
 /*header styling*/
 
 .header {
@@ -289,6 +291,80 @@ h2 {
     display: inline;
 }
 
-#github:hover, #linkedin:hover {
+.contact a:hover {
     color: white;
 }
+ 
+/*mobile display*/
+@media screen and (max-width: 580px) {
+    body {
+        margin: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        flex-flow: column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        margin: none;
+    }
+    main {
+        margin: none;
+    }
+    .header img {
+        border: none;
+    }
+    .header h1 {
+        text-align: center;
+    }
+    .header ul {
+        align-items: space-around;
+        width: 100%;
+    }
+    .about {
+        flex-flow: column wrap;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+    .about img {
+        width: 100%;
+        display: flexbox;
+        height: auto;
+    }
+    .about div {
+        width: 100%;
+        height: auto;
+    }
+    .examples {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+    .contact {
+        flex-flow: column;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        height: fit-content;
+    }
+    .contact nav ul {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    }
+    .contact li {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+} 
+    
