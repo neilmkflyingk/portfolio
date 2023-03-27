@@ -120,7 +120,7 @@ h2 {
     flex-flow: column wrap;
     
 }
-
+/*Header of work section*/
 .work #text {
     border: solid green 5px;
     margin: 10px;
@@ -135,7 +135,7 @@ h2 {
 
 }
 
-.work div ul {
+.work ul {
     border: solid black 5px;
     margin: 10px;
     text-align: center;
@@ -143,11 +143,12 @@ h2 {
     
 }
 
-.work div ul li {
+.work ul li {
     display: inline-block;
     border: solid red;
     margin: 0 10px
 }
+/*Examples portion of work section*/
 .work #examples {
     display: flex;
     border: solid green 5px;
@@ -157,7 +158,7 @@ h2 {
     justify-content: space-evenly;
     background-color: #33d6ff;
 }
-
+/*prework-study-guide*/
 .work #prework-study-guide {
     width: 100%;
     height: auto;
@@ -181,11 +182,11 @@ h2 {
     height: auto;
 }
 
-.container:hover .overlay {
+.container:hover .overlaypw {
     opacity: 1;
 }
 
-.overlay {
+.overlaypw {
     position: absolute;
     top: 12%;
     background: rgb(0, 0, 0);
@@ -209,6 +210,31 @@ h2 {
     justify-content: center;
 }
 
+/*general image overlay*/
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
 .work #e3 {
     width: 45%;
     border: solid black 5px;
@@ -216,6 +242,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 
 .work #e4 {
     width: 45%;
@@ -225,6 +252,7 @@ h2 {
     justify-content: center;
 }
 
+
 .work #e5 {
     width: 45%;
     border: solid black 5px;
@@ -232,6 +260,7 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
 
 /*Contact Me styling*/
 .contact {
@@ -258,4 +287,8 @@ h2 {
     border: solid red 2px;
     margin: 20px;
     display: inline;
+}
+
+#github:hover, #linkedin:hover {
+    color: white;
 }
