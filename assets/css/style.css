@@ -327,7 +327,7 @@ a {
         flex-flow: column wrap;
         align-items: center;
         display: flex;
-        width: 100%;
+       
         height: fit-content;
     }
     .about img {
@@ -340,12 +340,16 @@ a {
         height: auto;
     }
     .examples {
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
         display: flex;
         width: 100%;
         height: fit-content;
         justify-content: space-evenly;
+    }
+    figure {
+        flex: 0 0 100%;
+        width: 100%;
     }
     .contact {
         flex-flow: column;
