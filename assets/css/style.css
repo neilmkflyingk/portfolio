@@ -14,8 +14,8 @@ a {
     color: blue;
     text-decoration: none;
 }
-/*header styling*/
 
+/*header styling*/
 .header {
     flex-flow: row wrap;
     flex: 2 1 auto;
@@ -23,9 +23,6 @@ a {
     display: flex;
     max-width: 100%;
     background-color: #4CBFCF;
-    border: solid black 5px;
-  
-
 }
 
 .header h1 {
@@ -51,7 +48,6 @@ a {
     max-width: 100%;
     align-items: end;
     justify-content: end;
-    
 }
 
 .header nav ul {
@@ -63,108 +59,93 @@ a {
     color: black;
     margin: 5px;
     font-size: 18px;
-
 }
 
 .header nav ul li a:hover {
     color: white;
 }
+
 /*About Me styling*/
 .about {
     margin: 10px;
     display: flex;
     flex-flow: row wrap;
-    border: solid blue 5px;
     justify-content: space-around;
     background-color: #33d6ff;
-    
 }
 
 .about img {
-    border: solid black 5px;
     margin: 10px;
     max-width: 40%;
 }
 
 .about div {
-    border: solid green 5px;
     margin: 10px;
     max-width: 40%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    
 }
 
 .about div h2 {
     display:flexbox;
     max-height: 50px;
     text-align: center;
-    border: solid black 5px;
     margin: 10px;
 }
 
 .about div p {
     display: flex;
-    border: solid black 5px;
     padding: 20px;
     margin: 10px;
     text-align: center;
 }
 
-
-
 /*Work styling*/
 .work {
-    border: solid blue 5px;
     margin: 10px;
     display: flex;
     flex-flow: column wrap;
-    
 }
+
 /*Header of work section*/
 .work #text {
-    border: solid green 5px;
     margin: 10px;
     width: auto;
     display: flexbox;
     background-color: #33d6ff;
 }
+
 .work h2 {
-    border: solid black 5px;
     margin: 10px;
     text-align: center;
-
 }
 
 .work ul {
-    border: solid black 5px;
     margin: 10px;
     text-align: center;
     align-content: space-between;
-    
 }
 
 .work ul li {
     display: inline-block;
-    border: solid red;
     margin: 0 10px
 }
+
 /*Examples portion of work section*/
 .work #examples {
     display: flex;
-    border: solid green 5px;
     margin: 10px;
     width: auto;
     flex-flow: row wrap;
     justify-content: space-evenly;
     background-color: #33d6ff;
 }
+
 /*prework-study-guide*/
 .work #prework-study-guide {
     width: 100%;
     height: auto;
-    border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -175,9 +156,9 @@ a {
     height: auto;
     border: solid #3BF2DC 5px;
     display: block;
-    
 }
 
+/*Overlay styling PWSG*/
 .container {
     position: relative;
     width: 100%;
@@ -206,7 +187,6 @@ a {
 
 .work #e2 {
     width: 45%;
-    border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -239,7 +219,6 @@ a {
 
 .work #e3 {
     width: 45%;
-    border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -248,7 +227,6 @@ a {
 
 .work #e4 {
     width: 45%;
-    border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -257,16 +235,13 @@ a {
 
 .work #e5 {
     width: 45%;
-    border: solid black 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
 }
 
-
 /*Contact Me styling*/
 .contact {
-    border: solid blue 5px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -274,20 +249,17 @@ a {
 }
 
 .contact h2 {
-    border: solid black 5px;
     margin: 10px;
     text-align: center;
 }
 
 .contact ul {
-    border: solid black 5px;
     margin: auto;
     
 }
 
 .contact li {
-    border: solid red 2px;
-    margin: 20px;
+    margin: 30px;
     display: inline;
 }
 
@@ -295,7 +267,7 @@ a {
     color: white;
 }
  
-/*mobile display*/
+/*Responsive Styling*/
 @media screen and (max-width: 580px) {
     body {
         margin: none;
@@ -327,7 +299,6 @@ a {
         flex-flow: column wrap;
         align-items: center;
         display: flex;
-       
         height: fit-content;
     }
     .about img {
@@ -336,7 +307,7 @@ a {
         height: auto;
     }
     .about div {
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
     .examples {
@@ -351,6 +322,9 @@ a {
         flex: 0 0 100%;
         width: 100%;
     }
+} 
+
+@media  screen and (max-width: 750px) {
     .contact {
         flex-flow: column;
         align-items: center;
@@ -370,5 +344,4 @@ a {
         width: 100%;
         text-align: center;
     }
-} 
-    
+}
