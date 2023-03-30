@@ -14,7 +14,7 @@ This page is used to view samples of my previous work and to provide pathways to
 
 Link to deployed page: https://neilmkflyingk.github.io/portfolio/
 
-Pathway to screenshot of page: (./assets/images/portfolio-screenshot.jpeg)
+<img src = "./assets/images/portfolio-screenshot.jpeg" alt = "screenshot">
 
 ## Credits
 
